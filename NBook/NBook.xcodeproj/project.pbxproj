@@ -23,6 +23,7 @@
 		3CE927F317B654550030AB61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE927CE17B654550030AB61 /* Foundation.framework */; };
 		3CE927FB17B654550030AB61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CE927F917B654550030AB61 /* InfoPlist.strings */; };
 		3CE927FE17B654550030AB61 /* NBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE927FD17B654550030AB61 /* NBookTests.m */; };
+		3CE9280A17B6577F0030AB61 /* CommonNBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE9280917B6577F0030AB61 /* CommonNBookViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		3CE927FA17B654550030AB61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3CE927FC17B654550030AB61 /* NBookTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBookTests.h; sourceTree = "<group>"; };
 		3CE927FD17B654550030AB61 /* NBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBookTests.m; sourceTree = "<group>"; };
+		3CE9280817B6577F0030AB61 /* CommonNBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonNBookViewController.h; sourceTree = "<group>"; };
+		3CE9280917B6577F0030AB61 /* CommonNBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonNBookViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				3CE927E717B654550030AB61 /* ViewController.h */,
 				3CE927E817B654550030AB61 /* ViewController.m */,
 				3CE927D317B654550030AB61 /* Supporting Files */,
+				3CE9280817B6577F0030AB61 /* CommonNBookViewController.h */,
+				3CE9280917B6577F0030AB61 /* CommonNBookViewController.m */,
 			);
 			path = NBook;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 				3CE927D917B654550030AB61 /* main.m in Sources */,
 				3CE927DD17B654550030AB61 /* AppDelegate.m in Sources */,
 				3CE927E917B654550030AB61 /* ViewController.m in Sources */,
+				3CE9280A17B6577F0030AB61 /* CommonNBookViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
